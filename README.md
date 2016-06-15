@@ -11,6 +11,8 @@ Available attributes for the profile, see: https://docs.appdynamics.com/display/
 
 ```
 {
-  "appdynamics": {}
+  "appdynamics": {
+    "profile": {}
+  }
 }
 ```

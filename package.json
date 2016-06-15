@@ -1,7 +1,7 @@
 {
   "name": "mxd-appdynamics",
   "description": "Loads the AppDyanmics Node.js Agent if a profile is configured",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "homepage": "http://github.com/maxdome/appdynamics",
   "readmeFilename": "README.md",
   "main": "src/lib.js",
