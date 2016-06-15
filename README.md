@@ -12,6 +12,7 @@ Available attributes for the profile, see: https://docs.appdynamics.com/display/
 ```
 {
   "appdynamics": {
+    "active": true,
     "profile": {}
   }
 }

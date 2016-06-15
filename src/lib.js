@@ -2,10 +2,15 @@
 
 module.exports = (config) => {
   if (process.env.MXD_APPDYNAMICS) {
-    config.appdynamics = { profile: JSON.parse(process.env.MXD_APPDYNAMICS) };
+    config.appdynamics = {
+      active: process.env.MXD_APPDYNAMICS_ACTIVE,
+      profile: JSON.parse(process.env.MXD_APPDYNAMICS_PROFILE)
+    };
   }
 
-  if (config.appdynamics && config.appdynamics.profile) {
+  if (config.appdynamics &&
+      config.appdynamics.active &&
+      config.appdynamics.profile) {
     require('appdynamics').profile(config.appdynamics.profile);
   }
 };
