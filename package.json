@@ -6,10 +6,10 @@
   "readmeFilename": "README.md",
   "main": "src/lib.js",
   "dependencies": {
-    "appdynamics": "^4.2.1"
+    "appdynamics": "^4.3.6"
   },
-  "engines" : {
-    "node" : "4.2.3"
+  "engines": {
+    "node": "4.2.3"
   },
   "repository": {
     "type": "git",
